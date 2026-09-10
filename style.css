@@ -3,12 +3,12 @@
         body {
             font-family: 'Times New Roman', serif;
             margin: 0;
-            background-color: #F2EFE7;
+            background-color: #FFEAEA;
             color: #1F2937;
         }
 
         header {
-            background-color: #3368A0;
+            background-color: #748DAE;
             color: white;
             text-align: center;
             padding: 25px;
@@ -19,7 +19,7 @@
         }
 
         nav {
-            background-color: #66A3BF;
+            background-color: #9ECAD6;
             padding: 10px;
         }
 
@@ -41,7 +41,7 @@
         }
 
         nav a:hover {
-            color: #C8DFDB;
+            color: #F5CBCB;
         }
 
 
@@ -67,7 +67,7 @@
 
     
         footer {
-            background-color: #3368A0;
+            background-color: #748DAE;
             color: white;
             text-align: center;
             padding: 15px;
