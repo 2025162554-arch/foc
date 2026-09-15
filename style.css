@@ -64,6 +64,7 @@
         }
 
         article p {
+			family-font: Times;
             font-size: 17px;
             line-height: 1.6;
         }
