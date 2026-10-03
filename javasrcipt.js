@@ -1,3 +1,5 @@
+alert("JavaScript is working!");
+
 var inputOneIsOn = false;
 var inputTwoIsOn = false;
 
