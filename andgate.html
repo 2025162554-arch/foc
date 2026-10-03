@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>AND</title>
-	<style>
+    <style>
 .button {
   background-color: #008CBA; /* Blue */
   border: none;
@@ -17,32 +17,47 @@
 }
 </style>
 </head>
+
 <body>
 
-<script src = "javascript.js"></script>
-<script> 
+<script src="javascript.js"></script>
 
-</script>
+<button class="button" onclick="and()">Run</button>
 
- <button class="button" onclick = "and()">Run</button>
 <p>
 
 <table style="width:100%">
 
   <tr>
+
     <td>
-	<img src="button-off.png" id="toggleImage" onclick="toggleImage(); toggleInputOne();">
 
-<br>
+      <img src="button-off-xxl.png"
+           id="toggleImage"
+           onclick="toggleImage(); toggleInputOne();"/>
 
-<img src="button-off.png" id="toggleImage2" onclick="toggleImage2(); toggleInputTwo();"></td>
+      <br>
+
+      <img src="button-off-xxl.png"
+           id="toggleImage2"
+           onclick="toggleImage2(); toggleInputTwo();"/>
+
+    </td>
+
+    <td>
+      <img id="andGate" src="and2off.png">
+    </td>
+
   </tr>
 
 </table>
 
-<a href="index.html">Back to Home</a></h3>
+<a href="index.html">Back to Home</a>
 
 </p>
+
+</body>
+</html>
 
 
 
