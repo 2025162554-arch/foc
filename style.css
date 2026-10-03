@@ -71,6 +71,7 @@
 
     
         footer {
+			clear: both;
             background-color: #3368A0;
             color: white;
             text-align: center;
