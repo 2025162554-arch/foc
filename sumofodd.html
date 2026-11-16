@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>FoC</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+</style>
+</head>
+<body>
+<section>
+<h2>Sum of odd numbers.</h2>
+
+<p>Enter a number.</p>
+<input type="number" id="num1">
+<button onclick="add()">=</button>
+
+<p>Sum of all odd numbers of your given number is: </p>
+<h2 id="result"></h2>
+<script>
+function add(){
+let n = +num1.value;
+let sum = 0;
+let n1 = 1;
+
+while(n1 <= n){
+sum += n1;
+n1 += 2;
+}
+let resultElement = document.getElementById('result');
+resultElement.textContent = sum;
+}
+</script>
+</section>
+  <a href="index.html">Back to Home</a></h3>
+
+<footer>
+  <p>@ Powered by UB</p>
+</footer>
+</body>
+</html>
