@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>FoC</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+</style>
+</head>
+<body>
+
+<h2>Factorial Numbers.</h2>
+
+<p>Enter a number.</p>
+<input type="number" id="num1">
+<button onclick="add()">=</button>
+
+<p>Factorial of your given number is:</p>
+<h2 id="result"></h2>
+
+<script>
+function add(){
+let n = +num1.value;
+let fact = 1;
+let n1 = 1;
+
+while(n1 <= n){
+fact *= n1;
+n1++;
+}
+
+let resultElement = document.getElementById('result');
+resultElement.textContent = fact;
+}
+</script>
+
+</body>
+</html>
